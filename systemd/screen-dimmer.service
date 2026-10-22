@@ -1,0 +1,12 @@
+[Unit]
+Description=Screen Dimmer: keeps KWin software dimming at the level set in the widget
+PartOf=graphical-session.target
+After=plasma-kwin_wayland.service plasma-powerdevil.service
+
+[Service]
+ExecStart=%h/.local/bin/screen-dimmer
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

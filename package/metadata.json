@@ -1,0 +1,14 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "io.github.andry360.screendimmer",
+        "Name": "Screen Dimmer",
+        "Description": "Dim each screen in software, below the minimum of its backlight",
+        "Icon": "brightness-low",
+        "Authors": [{ "Name": "andry360" }],
+        "Category": "Utilities",
+        "License": "MIT",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
